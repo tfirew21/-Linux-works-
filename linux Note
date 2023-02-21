@@ -1,0 +1,16 @@
+pwd
+cd
+cd ~
+ls
+chmod
+rm
+mkdir
+cp
+touch
+cat
+ls -l
+ls -la
+ls-lah
+cd Directory
+cd Documents
+cat <filename>
