@@ -1,8 +1,10 @@
 pwd
+ps
 cd
 cd ~
 ls
 chmod
+chown
 rm
 mkdir
 cp
@@ -14,3 +16,20 @@ ls-lah
 cd Directory
 cd Documents
 cat <filename>
+cat <path>/<filename>
+cat <file 1> <file 2>
+cat ><filename>
+cat -n <filename>
+touch <filename>
+rmdir <directory name>
+grep
+sudo
+su
+df
+du
+tail
+diff
+tar
+tope
+kill
+weget downloading file
