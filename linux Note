@@ -1,27 +1,31 @@
-pwd
-ps
-cd
-cd ~
-ls
-chmod
-chown
-rm
-mkdir
-cp
-touch
-cat
+Introduction of Linux and commands and directories.
+ls= list all file
+pwd= display current working directoy
+mkdir = directory
+rm= remove
+rm -f = Force removal of file without prompting
+cd dir = mske directory
+cd ~ = change home directory
+ls = list directory
+chmod= change mode
+chown=
+rm= remove file
+cp = copy
+touch = make file
+cat=
+tail= to show ten line of the file
+
 ls -l
 ls -la
 ls-lah
 cd Directory
 cd Documents
-cat <filename>
-cat <path>/<filename>
-cat <file 1> <file 2>
-cat ><filename>
-cat -n <filename>
-touch <filename>
-rmdir <directory name>
+
+
+
+cat -n 
+
+rmdir 
 grep
 sudo
 su
