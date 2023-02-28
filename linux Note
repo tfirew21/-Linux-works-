@@ -14,15 +14,11 @@ cp = copy
 touch = make file
 cat=
 tail= to show ten line of the file
-
 ls -l
 ls -la
 ls-lah
 cd Directory
 cd Documents
-
-
-
 cat -n 
 
 rmdir 
@@ -41,3 +37,38 @@ nano
 touch filename.text
 vi filename.sh
 | to devede the numbers or vaalue
+WHILE LOOP=#!/bin/sh
+
+a=10
+
+until [ $a -lt 10 ]
+do
+   echo $a
+   a=`expr $a + 1`
+done
+This loop continues forever because a is always greater than or equal to 10 and it is never less than 10.
+The break Statement
+The break statement is used to terminate the execution of the entire loop, after completing the execution of all of the lines of code up to the break statement. 
+Here is a simple example which shows that loop terminates as soon as a becomes 5 −
+
+#!/bin/sh
+
+a=0
+
+while [ $a -lt 10 ]
+do
+   echo $a
+   if [ $a -eq 5 ]
+   then
+      break
+   fi
+   a=`expr $a + 1`
+   DONE
+   Upon execution, you will receive the following result −
+
+0
+1
+2
+3
+4
+5
