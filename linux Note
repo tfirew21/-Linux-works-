@@ -37,9 +37,7 @@ touch filename.text
 vi filename.sh
 | to devede the numbers or vaalue
 WHILE LOOP=#!/bin/sh
-
 a=10
-
 until [ $a -lt 10 ]
 do
    echo $a
@@ -49,11 +47,8 @@ This loop continues forever because a is always greater than or equal to 10 and 
 The break Statement
 The break statement is used to terminate the execution of the entire loop, after completing the execution of all of the lines of code up to the break statement. 
 Here is a simple example which shows that loop terminates as soon as a becomes 5 −
-
 #!/bin/sh
-
 a=0
-
 while [ $a -lt 10 ]
 do
    echo $a
@@ -64,7 +59,6 @@ do
    a=`expr $a + 1`
    DONE
    Upon execution, you will receive the following result −
-
 0
 1
 2
