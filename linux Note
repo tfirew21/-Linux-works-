@@ -1,6 +1,5 @@
-Introduction of Linux and commands and directories.
-﻿Creating a new ssh key
- 
+
+CREATHING A NEW SSH KEYS 
 *Run command: ~/.ssh first. This will navigate you to your ssh folder. This is where you will save your keys*
 1. Run command:  ssh-keygen -T ed25519 -C “comment name”
 * First prompt is for ssh key name
