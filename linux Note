@@ -20,7 +20,6 @@ ls-lah
 cd Directory
 cd Documents
 cat -n 
-
 rmdir 
 grep
 sudo
