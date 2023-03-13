@@ -15,11 +15,7 @@ lab_login="ssh -i labsuser.pem ec2-user@"$public_ip""
 
 if [[ "$lab_login" ]]; then  
 
-<<<<<<< HEAD
-	echo "Great Success!!!"
-=======
 	echo "Great Success"
->>>>>>> 0fcd064d15c177a1c4f27e30f6320d986408f191
 else
 	echo "You failed. Try again later"
 fi
